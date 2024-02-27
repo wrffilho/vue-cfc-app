@@ -68,7 +68,7 @@ export default defineComponent({
         // Trate a resposta conforme necessário
       } catch (error :any) {
         this.successMessage = ''; // Limpa qualquer mensagem de sucesso existente
-        this.errorMessage = error.response.data.message;
+       // this.errorMessage = error.response.data.message;
         console.error('Erro ao enviar dados:', error);
       }
     },
